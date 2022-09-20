@@ -1,18 +1,16 @@
 ### INF601 - Advanced Programming in Python
 #### *Lindsey Jimenez*
 # **Mini Project 1**
-###### _______________________________________________________________________
+
 > This project downloads the closing price for five stock tickers (MSFT, TLRY, GME, AVDA, ABNB)
 > over a span of ten days. It uses this data to creates five line charts to display the information.
 
-## Prequisites 
-###### _______________________________________________________________________
+## Prequisites
 Before you begin, ensure you have met the following requirements:
 > * You have installed the latest version of python
 > * You have installed all required plugins `pip install -r requirements.txt`
 
 ## Using Mini Project 1 
-###### _______________________________________________________________________
 To use Mini Project 1, follow these steps:
 > * Create and empty array for your ticker prices `tickerPrice = []`
 > * Download the tickers data for specified date range and store it in a variable `tickerData = yf.download("tickerName", start="2022-09-02", end="2022-09-18")`
@@ -26,7 +24,6 @@ To use Mini Project 1, follow these steps:
 > * Show the chart `plt.show()`
 
 ## Contributing to Mini Project 1
-###### _______________________________________________________________________
 To contribute to Mini Project 1, follow these steps:
 
 1. Fork this repository.
@@ -38,6 +35,5 @@ To contribute to Mini Project 1, follow these steps:
 Alternatively see the GitHub documentation on [creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 ## Contributors
-###### _______________________________________________________________________
 Thanks to the following people who have contributed: 
 * [@linnyelijim](https://github.com/linnyelijim) 
