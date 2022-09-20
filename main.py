@@ -57,31 +57,41 @@ abnbarray = np.array(abnbPrices)
 fig1 = plt.figure("MSFT")
 plt.title("Microsoft : MSFT")
 plt.plot(msftarray, 'bo-')
-
+# Saves image and shows
+plt.savefig("charts/msft.png")
+plt.show()
 
 # Create matplotlib graph TLRY and show
 fig2 = plt.figure("TLRY")
 plt.title("Tilray : TLRY")
 plt.plot(tlryarray, 'bo-')
-
+# Saves image and shows
+plt.savefig("charts/tlry.png")
+plt.show()
 
 # Create matplotlib graph GME and show
 fig3 = plt.figure("GME")
 plt.title("GameStop : GME")
 plt.plot(gmearray, 'bo-')
-
+# Saves image and shows
+plt.savefig("charts/gme.png")
+plt.show()
 
 # Create matplotlib graph NVDA and show
 fig4 = plt.figure("NVDA")
 plt.title("Nvidia : NVDA")
 plt.plot(nvdaarray, 'bo-')
-
+# Saves image and shows
+plt.savefig("charts/nvda.png")
+plt.show()
 
 # Create matplotlib graph ABNB and show
 fig5 = plt.figure("ABNB")
 plt.title("Airbnb : ABNB")
 plt.plot(abnbPrices, 'bo-')
-
+# Saves image and shows
+plt.savefig("charts/airbnb.png")
+plt.show()
 
 
 
