@@ -38,6 +38,21 @@ print(gmePrices)
 print(nvdaPrices)
 print(abnbPrices)
 
+# Create a NumPy array
+msftarray = np.array(msftPrices)
+tlryarray = np.array(tlryPrices)
+gmearray = np.array(gmePrices)
+nvdaarray = np.array(nvdaPrices)
+abnbarray = np.array(abnbPrices)
 
+# Create matplotlib graph
+plt.plot(msftarray)
+plt.plot(tlryarray)
+plt.plot(gmearray)
+plt.plot(nvdaarray)
+plt.plot(abnbPrices)
+
+# Show the graph
+plt.show()
 
 
